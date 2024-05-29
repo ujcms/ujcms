@@ -7,7 +7,7 @@
 # `ujcms`是数据库名，即创建数据库时，所填的数据库名。
 # `serverTimezone=Asia/Shanghai`是时区，中国使用上海时区也就是北京时间，不用改动。
 # `characterEncoding=UTF-8`是连接数据库的编码。不要改动。即使数据使用的是`utf8mb4`编码，此处依然使用`UTF-8`。
-spring.datasource.url: jdbc:mysql://localhost:3306/ujcms?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&nullCatalogMeansCurrent=true
+spring.datasource.url: jdbc:mysql://localhost:3306/ujcms_maintain?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&nullCatalogMeansCurrent=true
 # 数据库用户名（注意：所有配置名的冒号后必须保留一个英文空格）
 spring.datasource.username: root
 # 数据库密码（注意：所有配置名的冒号后必须保留一个英文空格）
